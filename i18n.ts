@@ -1,0 +1,106 @@
+
+import { Translation } from './types';
+
+export const translations: Translation = {
+  appName: { en: 'WELLNESS', rw: 'WELLNESS', fr: 'WELLNESS', sw: 'WELLNESS' },
+  landingHero: { 
+    en: 'Health in your Hands.', 
+    rw: 'Ubuzima mu biganza byawe.', 
+    fr: 'La santé entre vos mains.', 
+    sw: 'Afya mkononi mwako.' 
+  },
+  landingSub: {
+    en: 'A smarter way to track nutrition, hydration, and wellness across Africa.',
+    rw: 'Uburyo bugezweho bwo gukurikirana imirire, amazi, n\'ubuzima muri Afurika.',
+    fr: 'Un moyen plus intelligent de suivre la nutrition, l\'hydratation et le bien-être à travers l\'Afrique.',
+    sw: 'Njia bora ya kufuatilia lishe, unyevu, na afya kote Afrika.'
+  },
+  getStarted: { en: 'Get Started', rw: 'Tangira', fr: 'Commencer', sw: 'Anza' },
+  login: { en: 'Sign In', rw: 'Injira', fr: 'Se connecter', sw: 'Ingia' },
+  signup: { en: 'Sign Up', rw: 'Iyandikishe', fr: 'S\'inscrire', sw: 'Jisajili' },
+  logout: { en: 'Logout', rw: 'Sohoka', fr: 'Déconnexion', sw: 'Ondoka' },
+  home: { en: 'Home', rw: 'Ahabanza', fr: 'Accueil', sw: 'Nyumbani' },
+  scan: { en: 'Scan', rw: 'Sikana', fr: 'Scanner', sw: 'Skana' },
+  profile: { en: 'Profile', rw: 'Umwirondoro', fr: 'Profil', sw: 'Wasifu' },
+  settings: { en: 'Settings', rw: 'Igenamiterere', fr: 'Paramètres', sw: 'Mipangilio' },
+  wellnessScore: { en: 'Wellness Score', rw: 'Amanota y\'ubuzima', fr: 'Score de bien-être', sw: 'Alama ya Afya' },
+  hydration: { en: 'Hydration', rw: 'Amazi mu mubiri', fr: 'Hydratation', sw: 'Unyevu' },
+  nutrition: { en: 'Nutrition', rw: 'Imirire', fr: 'Nutrition', sw: 'Lishe' },
+  scanInstructions: { 
+    en: 'Place your finger on the camera lens.', 
+    rw: 'Shyira urutoki ku kanda y\'ifoto.', 
+    fr: 'Placez votre doigt sur l\'objectif.', 
+    sw: 'Weka kidole chako kwenye lenzi.' 
+  },
+  scanning: { en: 'Scanning...', rw: 'Irimo gusikana...', fr: 'Analyse...', sw: 'Inaskana...' },
+  results: { en: 'Results', rw: 'Ibisubizo', fr: 'Résultats', sw: 'Matokeo' },
+  dailyChallenges: { en: 'Daily Goals', rw: 'Intego z\'uyu munsi', fr: 'Objectifs quotidiens', sw: 'Malengo ya kila siku' },
+  activeChallenges: { en: 'Ongoing Challenges', rw: 'Intego zikomeje', fr: 'Défis en cours', sw: 'Changamoto Zinazoendelea' },
+  streakCount: { en: '7 Day Streak', rw: 'Iminsi 7 ikurikirana', fr: 'Série de 7 jours', sw: 'Siku 7 Mfululizo' },
+  viewAll: { en: 'View All', rw: 'Reba byose', fr: 'Voir tout', sw: 'Ona Zote' },
+  badges: { en: 'Completion Badges', rw: 'Impamyabumenyi', fr: 'Badges de réussite', sw: 'Beji za Kukamilisha' },
+  climate: { en: 'Climate', rw: 'Ikirere', fr: 'Climat', sw: 'Hali ya hewa' },
+  activity: { en: 'Activity', rw: 'Imyitozo', fr: 'Activité', sw: 'Shughuli' },
+  powerFoods: { en: 'Power Foods', rw: 'Ibiribwa Byisumbuye', fr: 'Super-aliments', sw: 'Chakula Bora' },
+  tropical: { en: 'Tropical', rw: 'Muri mukanwa', fr: 'Tropical', sw: 'Tropiki' },
+  temperate: { en: 'Temperate', rw: 'Bisanzwe', fr: 'Tempéré', sw: 'Halijoto' },
+  dry: { en: 'Dry', rw: 'Icyanda', fr: 'Sec', sw: 'Kavu' },
+  low: { en: 'Low', rw: 'Gake', fr: 'Faible', sw: 'Chini' },
+  moderate: { en: 'Moderate', rw: 'Hagati', fr: 'Modéré', sw: 'Wastani' },
+  high: { en: 'High', rw: 'Kwinshi', fr: 'Élevé', sw: 'Juu' },
+  howItWorks: { en: 'How it Works', rw: 'Uko bikora', fr: 'Comment ça marche', sw: 'Jinsi inavyofanya kazi' },
+  step1Title: { en: 'Instant Scan', rw: 'Sikana vuba', fr: 'Scan instantané', sw: 'Skana Haraka' },
+  step1Desc: { en: 'Hold finger on camera for 5s.', rw: 'Fata urutoki ku kanda mu masegonda 5.', fr: 'Maintenez le doigt sur la caméra 5s.', sw: 'Weka kidole kwenye kamera kwa sekunde 5.' },
+  step2Title: { en: 'Smart Analysis', rw: 'Isuzuma ryimbitse', fr: 'Analyse intelligente', sw: 'Uchambuzi Mahiri' },
+  step2Desc: { en: 'AI gives your Wellness Score.', rw: 'AI iguha amanota y\'ubuzima.', fr: 'L\'IA donne votre score de bien-être.', sw: 'AI inakupa alama ya afya.' },
+  step3Title: { en: 'Local Guidance', rw: 'Inama z\'iwacu', fr: 'Conseils locaux', sw: 'Mwongozo wa Kienyeji' },
+  step3Desc: { en: 'Get tips for African foods.', rw: 'Bona inama ku biribwa bya Afurika.', fr: 'Conseils sur les aliments africains.', sw: 'Pata vidokezo vya vyakula vya Kiafrika.' },
+  improvementHub: { en: 'Improvement Hub', rw: 'Ikigo cy\'iterambere', fr: 'Centre d\'amélioration', sw: 'Kitovu cha Maendeleo' },
+  learnMore: { en: 'Learn Why', rw: 'Sobanukirwa kuki', fr: 'Apprendre pourquoi', sw: 'Jifunze kwanini' },
+  whyItMatters: { en: 'Why it matters', rw: 'Kuki ari ingenzi', fr: 'Pourquoi c\'est important', sw: 'Kwa nini ni muhimu' },
+  howToImprove: { en: 'How to improve', rw: 'Uko wakongera amanota', fr: 'Comment s\'améliorer', sw: 'Jinsi ya kuboresha' },
+  foodSwap: { en: 'Local Food Swap', rw: 'Guhindura ibiryo', fr: 'Échange d\'aliments', sw: 'Mbadala wa Chakula' },
+  whyEnergy: { en: 'Energy Boost', rw: 'Ingufu', fr: 'Élan d\'énergie', sw: 'Nishati' },
+  goalSetting: { en: 'Goal Setting', rw: 'Gushyira Intego', fr: 'Fixation d\'objectifs', sw: 'Kuweka Malengo' },
+  addNewGoal: { en: 'Add New Goal', rw: 'Ongeramo Intego', fr: 'Nouvel objectif', sw: 'Ongeza Lengo' },
+  daily: { en: 'Daily', rw: 'Buri munsi', fr: 'Quotidien', sw: 'Kila siku' },
+  weekly: { en: 'Weekly', rw: 'Buri cyumweru', fr: 'Hebdomadaire', sw: 'Kila wiki' },
+  monthly: { en: 'Monthly', rw: 'Buri kwezi', fr: 'Mensuel', sw: 'Kila mwezi' },
+  setGoal: { en: 'Set Goal', rw: 'Emeza Intego', fr: 'Fixer l\'objectif', sw: 'Weka Lengo' },
+  targetValue: { en: 'Target', rw: 'Intego nyirizina', fr: 'Cible', sw: 'Lengo' },
+  myActiveGoals: { en: 'My Active Goals', rw: 'Intego zanjye zikomeje', fr: 'Mes objectifs actifs', sw: 'Malengo Yangu' },
+  healthTips: { en: 'Health Tips', rw: 'Inama z\'ubuzima', fr: 'Conseils santé', sw: 'Vidokezo vya Afya' },
+  share: { en: 'Share', rw: 'Sangiza', fr: 'Partager', sw: 'Shiriki' },
+  privacyPolicy: { en: 'Privacy Policy', rw: 'Amategeko y\'ibanga', fr: 'Politique de confidentialité', sw: 'Sera ya Faragha' },
+  support: { en: 'Support', rw: 'Ubufasha', fr: 'Assistance', sw: 'Usaidizi' },
+  contactUs: { en: 'Contact Us', rw: 'Twandikire', fr: 'Nous contacter', sw: 'Wasiliana nasi' },
+  initiateVitalScan: { 
+    en: 'Initiate Vital Scan', 
+    rw: 'Tangira Isuzuma', 
+    fr: 'Lancer l\'Analyse Vitale', 
+    sw: 'Anza Ukaguzi wa Muhimu' 
+  },
+  privacyConfirm: {
+    en: 'I understand my data is private.',
+    rw: 'Ndasobanukiwe ko amakuru yanjye ari ibanga.',
+    fr: 'Je comprends que mes données sont privées.',
+    sw: 'Naelewa kuwa data zangu ni siri.'
+  },
+  privacySummary: { 
+    en: 'Your privacy is our priority. We only process numeric biometric data derived from your camera scan. No raw images are ever stored on our servers or your device.',
+    rw: 'Umutekano w\'amakuru yawe niwo dushyira imbere. Dukoresha gusa imibare ikomoka ku gusikana urutoki kwawe. Nta foto yawe n\'imwe ibikwa kuri seriveri zacu cyangwa ku gikoresho cyawe.',
+    fr: 'Votre confidentialité est notre priorité. Nous traitons uniquement les données biométriques numériques dérivées de votre scan. Aucune image brute n\'est jamais stockée sur nos serveurs ou votre appareil.',
+    sw: 'Faragha yako ni kipaumbele chetu. Tunachakata tu data za kidijitali za kibayometriki zinazotokana na skana yako. Hakuna picha ghafi zinazohifadhiwa kwenye seva zetu au kifaa chako.'
+  },
+  setReminder: { en: 'Set Daily Reminder', rw: 'Gena urwibutso rwa buri munsi', fr: 'Rappel quotidien', sw: 'Kikumbusho cha kila siku' },
+  reminderTime: { en: 'Reminder Time', rw: 'Saha y\'urwibutso', fr: 'Heure du rappel', sw: 'Muda wa kikumbusho' },
+  delete: { en: 'Delete', rw: 'Siba', fr: 'Supprimer', sw: 'Futa' },
+  cancel: { en: 'Cancel', rw: 'Reka', fr: 'Annuler', sw: 'Ghairi' },
+  confirmDeleteTitle: { en: 'Delete Goal?', rw: 'Siba intego?', fr: 'Supprimer l\'objectif ?', sw: 'Futa Lengo?' },
+  confirmDeleteDesc: { 
+    en: 'Are you sure you want to remove this goal? Your progress and streak will be lost.', 
+    rw: 'Uraremera ko ushaka gusiba iyi ntego? Ibikorwa byawe n\'iminsi umaze urabihomba.', 
+    fr: 'Voulez-vous vraiment supprimer cet objectif ? Votre progression et votre série seront perdues.', 
+    sw: 'Je, una uhakika unataka kuondoa lengo hili? Maendeleo yako na mfuatano utapotea.' 
+  }
+};

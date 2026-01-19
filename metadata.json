@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of Copy of WELLNESS",
+  "description": "A high-performance wellness application tailored for the African market, featuring fingertip scanning and localized nutrition guidance.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
